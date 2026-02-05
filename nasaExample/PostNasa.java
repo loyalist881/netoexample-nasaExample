@@ -32,19 +32,6 @@ public class PostNasa {
         this.url = url;
     }
 
-
-    public String getUrl() {
-        return url;
-    }
-
-    @Override
-    public String toString() {
-        return "PostNasa{" +
-                "title='" + title + '\'' +
-                ", url='" + url + '\'' +
-                '}';
-    }
-
     public String getCopyright() {
         return copyright;
     }
@@ -68,4 +55,17 @@ public class PostNasa {
     public String getService_version() {
         return service_version;
     }
+    
+    public String getUrl() {
+        return url;
+    }
+
+    @Override
+    public String toString() {
+        return "PostNasa{" +
+                "title='" + title + '\'' +
+                ", url='" + url + '\'' +
+                '}';
+    }
 }
+
